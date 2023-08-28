@@ -1,0 +1,47 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+#number {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: green;
+}
+
+.head {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+    color: blue;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(1, 1, 165);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
